@@ -1,0 +1,230 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    },
+    {
+      "name": "admin",
+      "password": "123",
+      "email": "roman@gmai.com",
+      "id": 9
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 10
+    },
+    {
+      "name": "admin",
+      "password": "1234",
+      "email": "admin@com",
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "name": "pizza ",
+      "price": "1250",
+      "category": "Pizza",
+      "color": "",
+      "description": "",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2020/05/Pepperoni-Pizza_5-SQjpg.jpg",
+      "id": 2
+    },
+    {
+      "name": "BOURBON CHICKEN",
+      "price": "2533",
+      "category": "Lunch",
+      "description": "Bourbon Chicken because it was supposedly created by a Chinese cook who worked in a restaurant on Bourbon Street.",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_860,ar_3:2/v1/img/recipes/45/80/9/MwuCd6HpQ5mDvn4OLRkA_0S9A9886.jpg",
+      "id": 8
+    },
+    {
+      "name": "Bourbon Chicken",
+      "price": "650",
+      "category": "Dinner",
+      "description": "Good Food",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_iw/v1/img/recipes/45/80/9/KBhtHmrqSXew6wG5h50c_IMG-20160320-WA0002.jpg",
+      "id": 9
+    },
+    {
+      "name": "Chicken-LIj ",
+      "price": "1500",
+      "category": "Lunch",
+      "description": "Testy Food",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_iw/v1/img/recipes/45/80/9/01477959768.jpeg",
+      "id": 10
+    },
+    {
+      "name": "Chicken-Masala",
+      "price": "1500",
+      "category": "Lunch",
+      "description": "Testy Food",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_960/v1/img/feed/45809/AELeDrJmT1aPk0ADFr6d_10101046640053887.jpg",
+      "id": 11
+    },
+    {
+      "name": "Chicken-Kala",
+      "price": "1500",
+      "category": "Lunch",
+      "description": "Testy Food",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_960/v1/img/recipes/45/80/9/EYkqUO7OQ8GmSqh8Z3IO_Bourbon%2520Chicken.JPG",
+      "id": 12
+    },
+    {
+      "name": "Chicken-Kala",
+      "price": "1500",
+      "category": "Lunch",
+      "description": "Testy Food",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_960/v1/img/recipes/45/80/9/pOojJW92RfSxSwdAgv4g_0S9A9868.jpg",
+      "id": 13
+    },
+    {
+      "name": "Chicken-Kala",
+      "price": "1500",
+      "category": "Lunch",
+      "description": "Testy Food",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,w_iw/v1/img/recipes/45/80/9/ggIfR8tpTUOkImhj16cV_DSC_1678-2.jpg",
+      "id": 14
+    },
+    {
+      "name": "Dairy Queen Chicken Strip Basket",
+      "price": "600",
+      "category": "Fast-Food",
+      "description": "Testy Food",
+      "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/08/dairy-queen-chicken-strip-basket.jpg?resize=640,468&quality=82&strip=all",
+      "id": 15
+    },
+    {
+      "name": "Dairy Queen Chicken Strip Basket",
+      "price": "600",
+      "category": "Fast-Food",
+      "description": "Testy Food",
+      "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/08/panera-broccoli-cheddar-soup.jpg?resize=640,468&quality=82&strip=all",
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "admin",
+      "email": "roman@gmai.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "admin",
+      "email": "roman@gmai.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "admin",
+      "email": "roman@gmai.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "admin",
+      "email": "roman@gmai.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "Imran",
+      "email": "df@asd.cgg",
+      "password": "123",
+      "id": 9
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 250650,
+      "userId": 5,
+      "id": 4
+    }
+  ]
+}

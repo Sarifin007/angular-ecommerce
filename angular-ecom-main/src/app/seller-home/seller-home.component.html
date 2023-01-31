@@ -1,0 +1,39 @@
+<div class="product-list"  style="background-color:#D7C0AE ;" >
+  <h1 class="d-md-flex justify-content-md-center">Product Detals</h1>
+  <p class="message-p">{{ productMessage }}</p>
+
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-2" >
+    <button type="button" class="btn btn-success d-flex" routerLink="/seller-add-product">Add Product</button> 
+  </div>
+
+  <table style="border:null ;">
+    <thead>
+      <tr class="border border-1">
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of productList">
+        <td><img src="{{ item.image }}" /></td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.price }}</td>
+        <td>{{ item.category }}</td>
+        <td>{{ item.description }}</td>
+        <td>
+
+          <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+          <a class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}">
+            <fa-icon [icon]="iconEdit"></fa-icon>
+          </a>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<router-outlet></router-outlet>
